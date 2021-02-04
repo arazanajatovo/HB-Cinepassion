@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cinepassion</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Inclusion des fonts Anton et Work Sans -->
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Inclusion des feuilles css -->
+        <link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/base.css">
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+	<body>
+        <!-- Début header -->
+        <header>
+            <!-- Classe .container pour délimitation des marges -->
+			<div class="container">
+                <!-- Navbar pour ordi -->
+				<nav>
+                    <!-- Logo dans le header -->
+                    <img src="./img/logo.png" alt="logo cinepassion">
+                    <!-- Menu header sur ordi -->
+					<ul>
+						<li><a href="#concept">Concept</a></li>
+						<li><a href="#programme">Programme</a></li>
+						<li><a href="#abonnement">Abonnement</a></li>
+                    </ul>
+                    <a class="burger" href="#"><img src="./img/burger menu.png" alt="burger menu"></a>
+                </nav>
+                <!-- Titre (h1) + phrase d'accroche (p) -->
+                <h1>Cinepassion</h1>
+                <p>Partagez votre passion du cinéma autour d'un apéro hebdomadaire !</p>
+			</div>
+		</header>
+        <!-- Fin header -->
+        <!------------------------------------------------------------>
+        <!-- Début main -->
+        <main>
+            <!-- Section #concept de classe container pour délimitation des marges -->
+			<section id="concept" class="container">
+                <!-- Image (caméra) -->
+                <img src="./img/cam.jpg" alt="camera">
+                <!-- Titre (h2) + Texte (p) + lien (a) vers abonnement de la section #concept -->
+				<article>
+                    <h2>Le concept Cinepassion</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus animi fugiat corporis asperiores quos, perspiciatis nam tempore, hic dolor vitae, cupiditate unde earum. Odio illum voluptates, vitae hic eligendi provident.</p>
+                    <a href="#abonnement">Je m'abonne</a>
+                </article>
+            </section>
+            <!-- Fin de la section #concept -->
+            <!-------------------------------------------------------->
+            <!-- Section #programme (contient de background-image) -->
+            <section id="programme">
+                <!-- Classe .container pour délimitation des marges -->
+                <div class="container">
+                    <!-- Titre de la section #programme -->
+                    <h2>Le programme de ces RDV</h2>
+                    <!-- Liste du programme en 2 sous catégories -->
+                    <ul>
+                        <!-- Description de la catégorie Ciné -->
+                        <li>
+                            <h3>Ciné'time</h3>
+                            <p>Vous recevrez, 3 jours avant, un lien vous permettant de choisir le film à visionner</p>
+                            <hr>
+                            <p>A l'heure prévue, vous venez vous installer à la place qui vous à été attribuée</p>
+                            <hr>
+                            <p>Vous profitez d'un film en avant première !</p>
+                        </li>
+                        <!-- Description de la catégorie Apéro -->
+                        <li>
+                            <h3>Apéro'time</h3>
+                            <p>Vous rejoignez les différents membre pour un moment d'échanges à propos des films</p>
+                            <hr>
+                            <p>Vous profitez d'un apéro offert (dans la limite de 2 boissons)</p>
+                            <hr>
+                            <p>Vous repartez avec un goodies estampillé Cinepassion !</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Fin de la section #programme -->
+            <!-------------------------------------------------------->
+            <!-- Section #abonnement de classe container pour délimitation des marges -->
+            <section id="abonnement" class="container">
+                <!-- Titre de la section #abonnement -->
+                <h2>Différentes formules d'abonnement</h2>
+                <!-- Liste des abonnements -->
+                <ul>
+                    <!-- Formule EasyMovie en supposant que les liens redirigent vers la page d'abonnement -->
+                    <a href="#abonnement"><li>
+                        <p>49<sup>euros/mois</sup></p>
+                        <h3>Formule EasyMovie</h3>
+                        <hr>
+                        <p>1 film, 1 apéro par semaine</p>
+                    </li></a>
+                    <!-- Formule Drink -->
+                    <a href="#abonnement"><li>
+                        <p>129<sup>euros/mois</sup></p>
+                        <h3>Formule Drink</h3>
+                        <hr>
+                        <p>Boissons illimités.</p>
+                    </li></a>
+                    <!-- Formule VIP -->
+                    <a href="#abonnement"><li>
+                        <p>299<sup>euros/mois</sup></p>
+                        <h3>Formule VIP</h3>
+                        <hr>
+                        <p>Bénéficiez d'avantages exclusifs.</p>
+                    </li></a>
+                </ul>
+            </section>
+            <!-- Fin de la section #abonnement -->
+            <!-------------------------------------------------------->
+            <!-- Footer -->
+			<footer>
+				<p class="container">2020 © AH</p>
+			</footer>
+        </main>
+	</body>
+</html>
+    
